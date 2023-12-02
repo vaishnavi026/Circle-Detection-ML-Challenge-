@@ -1,4 +1,8 @@
-pandas
 numpy
-seaborn
+torch
+torchvision
+scikit_image
+Shapely
+matplotlib
+tqdm
 -e .
