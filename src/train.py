@@ -1,4 +1,5 @@
 import torch
+import tqdm
 from tqdm.auto import tqdm
 
 def train_step(model: torch.nn.Module,

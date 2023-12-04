@@ -4,6 +4,5 @@ torchvision
 scikit_image
 Shapely
 matplotlib
-skimage
 tqdm
 -e .
