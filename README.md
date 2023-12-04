@@ -13,7 +13,7 @@ Develop a deep-learning model to detect circles in images. The model should be t
 #### _Input_ <br/>
 Input images with varying levels of noise.
 
-#### _Output_\
+#### _Output_ <br/>
 Predicted location of the circle's center (x, y).\
 The predicted radius of the detected circle.
 
