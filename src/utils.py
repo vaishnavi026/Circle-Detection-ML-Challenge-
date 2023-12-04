@@ -4,6 +4,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from skimage.draw import circle_perimeter_aa
 
+from timeit import default_timer as timer
 
 class CircleParams(NamedTuple):
     row: int
@@ -123,7 +124,6 @@ def calculate_accuracy(predictions, targets, threshold=0.5):
     accuracy = correct_predictions / len(predictions)
     return accuracy
 
-from timeit import default_timer as timer
 def print_train_time(start: float,
                      end: float,
                      device: torch.device = None):
