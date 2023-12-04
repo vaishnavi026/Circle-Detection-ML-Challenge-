@@ -1,5 +1,5 @@
 from typing import NamedTuple, Optional, Tuple, Generator
-
+import torch
 import numpy as np
 from matplotlib import pyplot as plt
 from skimage.draw import circle_perimeter_aa
@@ -122,3 +122,12 @@ def calculate_accuracy(predictions, targets, threshold=0.5):
 
     accuracy = correct_predictions / len(predictions)
     return accuracy
+
+from timeit import default_timer as timer
+def print_train_time(start: float,
+                     end: float,
+                     device: torch.device = None):
+  """Prints difference between start and end time."""
+  total_time = end - start
+  print(f"Train time on {device}: {total_time:.3f} seconds")
+  return total_time

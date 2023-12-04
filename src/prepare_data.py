@@ -40,8 +40,8 @@ def generate_data(noise_level=0.5, img_size=100, num_samples=1000):
 
     return dataset
 
-def get_train_test_data(noise_level=0.5, img_size=100, num_samples=1000):
-    data = generate_data(noise_level, img_size, noise_level)
+def get_train_test_data(noise_level=0.5, img_size=100, num_samples=1000, batch_size=32):
+    data = generate_data(noise_level, img_size, num_samples)
     train_data, test_data = train_test_split(data, test_size=0.2)
 
     # Access images and parameters
@@ -56,5 +56,15 @@ def get_train_test_data(noise_level=0.5, img_size=100, num_samples=1000):
 
     train_data = TensorDataset(X_train, Y_train)
     test_data = TensorDataset(X_test, Y_test)
-    return (train_data, test_data)
+    train_loader = DataLoader(dataset= train_data,
+                            batch_size= batch_size,
+                            shuffle=True)
+
+    test_loader = DataLoader(dataset= test_data,
+                            batch_size= batch_size,
+                            shuffle=False)
+    print(f"DataLoader: {train_loader, test_loader}")
+    print(f"Length of train data loader: {len(train_loader)} batches of {batch_size}")
+    print(f"Length of test data loader: {len(test_loader)} batches of {batch_size}")
+    return (train_loader, test_loader)
 
