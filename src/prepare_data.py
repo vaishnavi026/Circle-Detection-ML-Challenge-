@@ -3,14 +3,12 @@ import pickle
 import utils
 from src.utils import generate_examples
 from skimage.draw import circle_perimeter_aa
+import torch
+from torch.utils.data import DataLoader, TensorDataset
+from sklearn.model_selection import train_test_split
 
-import os
-import pickle
 
-import os
-import pickle
-
-def get_data(noise_level=0.5, img_size=100, num_samples=1000):
+def generate_data(noise_level=0.5, img_size=100, num_samples=1000):
     # Define the file path based on the configurations
     file_path = f'data/noise_{noise_level}_size_{img_size}_samples_{num_samples}.pkl'
 
@@ -41,3 +39,22 @@ def get_data(noise_level=0.5, img_size=100, num_samples=1000):
         print(f'Data saved to {file_path}')
 
     return dataset
+
+def get_train_test_data(noise_level=0.5, img_size=100, num_samples=1000):
+    data = generate_data(noise_level, img_size, noise_level)
+    train_data, test_data = train_test_split(data, test_size=0.2)
+
+    # Access images and parameters
+    train_images, train_params = zip(*train_data)
+    test_images, test_params = zip(*test_data)
+
+    X_train = torch.tensor(train_images, dtype=torch.float32).unsqueeze(1)
+    Y_train = torch.tensor(train_params, dtype=torch.float32)
+
+    X_test = torch.tensor(test_images, dtype=torch.float32).unsqueeze(1)
+    Y_test = torch.tensor(test_params, dtype=torch.float32)
+
+    train_data = TensorDataset(X_train, Y_train)
+    test_data = TensorDataset(X_test, Y_test)
+    return (train_data, test_data)
+
