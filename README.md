@@ -51,6 +51,7 @@ Flatten Layer: Flattens the output from the convolutional layers.\
 Three Fully Connected layers, with ReLU activation, the final layer outputs 3 features\
 
 #### Model Parameters
+
 Input Shape: Grayscale images with a single channel (1).\
 Hidden Units: 64 (Adjustable parameter for the number of neurons in the hidden layers).\
 Output Shape: 3 (Representing (x, y, radius) of the circle).\
