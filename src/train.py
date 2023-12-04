@@ -10,7 +10,7 @@ def train_step(model: torch.nn.Module,
                device: torch.device= "cuda"):
     train_loss, train_acc = 0, 0
     model.train()
-
+    print(device)
 
     # Loop through training batches
     for batch, (X, y) in enumerate(data_loader):
