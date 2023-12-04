@@ -35,7 +35,7 @@ Noise Parameters: Varied to ensure the model's adaptability to different noise l
 ### Model
 
 #### Model Architecture
-**Convolutional Blocks**\\
+**Convolutional Blocks**
 **Block 1:**\
 Convolution Layer 1: Input channels (1 for grayscale), output channels (64), kernel size (3x3), padding (1), stride (1)\
 ReLU Activation\
