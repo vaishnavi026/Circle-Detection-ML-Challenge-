@@ -44,16 +44,16 @@ Convolution Layer 2: Input channels (64), output channels (128), kernel size (3x
 ReLU Activation\
 MaxPooling Layer: Kernel size (2x2)\
 
-**Block 2:**\
+`Block 2`:\
 Convolution Layer 3: Input channels (128), output channels (256), kernel size (3x3), padding (1), stride (1)\
 ReLU Activation\
 MaxPooling Layer: Kernel size (2x2)\
 
-**Output Layer**\
+`Output Layer`:\
 Flatten Layer: Flattens the output from the convolutional layers.\
 Three Fully Connected layers, with ReLU activation, the final layer outputs 3 features\
 
-#### Model Parameters
+#### `Model Parameters`
 
 Input Shape: Grayscale images with a single channel (1).\
 Hidden Units: 64 (Adjustable parameter for the number of neurons in the hidden layers).\
