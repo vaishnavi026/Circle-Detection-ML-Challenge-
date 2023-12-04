@@ -10,13 +10,11 @@ The objective of the Circle Detection ML Challenge is to design a robust circle 
 
 Develop a deep-learning model to detect circles in images. The model should be trained to handle noisy images and provide precise estimates of the circle's parameters.
 
-#### _Input_
-
+#### _Input_\
 Input images with varying levels of noise.
 
-#### _Output_
-
-Predicted location of the circle's center (x, y).
+#### _Output_\
+Predicted location of the circle's center (x, y).\
 The predicted radius of the detected circle.
 
 ### Dataset
