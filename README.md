@@ -20,7 +20,7 @@ The predicted radius of the detected circle.
 ### Dataset
 
 I've generated a custom dataset with the following characteristics:\
-Size: 40,000 images (tried on smaller dataset, but did not get good results)\
+Size: 20,000 images (tried on smaller dataset, but did not get good results)\
 Train-Test Split: 80% for training, 20% for testing\
 Noise Levels: Varied from 0.1 to 0.5 to simulate real-world scenarios.\
 
@@ -79,3 +79,11 @@ Image Size: 100x100 pixels
 
 To run the complete pipeline, execute `run.py`. 
 
+## Results
+
+For noise level 1, I have used the following configurations:
+1. Dataset containing 20,000 images (80/20 split)
+2. Adam Optimizer with a learning rate of 0.01
+3. 50 Epochs (was getting good performance with a lesser number of epochs
+
+Obtained MSE Loss in the range of 0.52 for training data, and test accuracy as 97%. (used IoC score and threshold of 0.7 to get accuracy)
