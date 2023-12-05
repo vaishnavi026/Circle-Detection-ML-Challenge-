@@ -1,0 +1,301 @@
+Hi
+Epoch: 0
+--------
+cuda
+Train Loss:  0.43531 | Train Accuracy: 1.00
+Test Loss:  1.06448 | Test Accuracy: 0.98
+Train time on cuda:0: 17.639 seconds
+Epoch: 1
+--------
+cuda
+Train Loss:  0.38642 | Train Accuracy: 1.00
+Test Loss:  1.08744 | Test Accuracy: 0.98
+Train time on cuda:0: 35.353 seconds
+Epoch: 2
+--------
+cuda
+Train Loss:  0.37267 | Train Accuracy: 1.00
+Test Loss:  1.01995 | Test Accuracy: 0.98
+Train time on cuda:0: 53.019 seconds
+Epoch: 3
+--------
+cuda
+Train Loss:  0.41273 | Train Accuracy: 1.00
+Test Loss:  1.05326 | Test Accuracy: 0.98
+Train time on cuda:0: 70.726 seconds
+Epoch: 4
+--------
+cuda
+Train Loss:  0.39250 | Train Accuracy: 1.00
+Test Loss:  1.04704 | Test Accuracy: 0.98
+Train time on cuda:0: 88.495 seconds
+Epoch: 5
+--------
+cuda
+Train Loss:  0.34885 | Train Accuracy: 1.00
+Test Loss:  1.01345 | Test Accuracy: 0.98
+Train time on cuda:0: 106.225 seconds
+Epoch: 6
+--------
+cuda
+Train Loss:  0.34054 | Train Accuracy: 1.00
+Test Loss:  1.01657 | Test Accuracy: 0.98
+Train time on cuda:0: 124.033 seconds
+Epoch: 7
+--------
+cuda
+Train Loss:  0.33794 | Train Accuracy: 1.00
+Test Loss:  1.15877 | Test Accuracy: 0.97
+Train time on cuda:0: 142.036 seconds
+Epoch: 8
+--------
+cuda
+Train Loss:  0.34318 | Train Accuracy: 1.00
+Test Loss:  0.93620 | Test Accuracy: 0.98
+Train time on cuda:0: 159.847 seconds
+Epoch: 9
+--------
+cuda
+Train Loss:  0.28349 | Train Accuracy: 1.00
+Test Loss:  1.09725 | Test Accuracy: 0.99
+Train time on cuda:0: 177.686 seconds
+Epoch: 10
+--------
+cuda
+Train Loss:  0.28746 | Train Accuracy: 1.00
+Test Loss:  0.90002 | Test Accuracy: 0.98
+Train time on cuda:0: 195.523 seconds
+Epoch: 11
+--------
+cuda
+Train Loss:  0.33071 | Train Accuracy: 1.00
+Test Loss:  0.87316 | Test Accuracy: 0.98
+Train time on cuda:0: 213.474 seconds
+Epoch: 12
+--------
+cuda
+Train Loss:  0.27198 | Train Accuracy: 1.00
+Test Loss:  0.94542 | Test Accuracy: 0.98
+Train time on cuda:0: 231.449 seconds
+Epoch: 13
+--------
+cuda
+Train Loss:  0.29117 | Train Accuracy: 1.00
+Test Loss:  0.92858 | Test Accuracy: 0.98
+Train time on cuda:0: 249.388 seconds
+Epoch: 14
+--------
+cuda
+Train Loss:  0.26255 | Train Accuracy: 1.00
+Test Loss:  0.92984 | Test Accuracy: 0.98
+Train time on cuda:0: 267.351 seconds
+Epoch: 15
+--------
+cuda
+Train Loss:  0.30884 | Train Accuracy: 1.00
+Test Loss:  1.00944 | Test Accuracy: 0.98
+Train time on cuda:0: 285.361 seconds
+Epoch: 16
+--------
+cuda
+Train Loss:  0.27116 | Train Accuracy: 1.00
+Test Loss:  0.88528 | Test Accuracy: 0.98
+Train time on cuda:0: 303.329 seconds
+Epoch: 17
+--------
+cuda
+Train Loss:  0.23746 | Train Accuracy: 1.00
+Test Loss:  0.89755 | Test Accuracy: 0.99
+Train time on cuda:0: 321.249 seconds
+Epoch: 18
+--------
+cuda
+Train Loss:  0.21094 | Train Accuracy: 1.00
+Test Loss:  0.88060 | Test Accuracy: 0.98
+Train time on cuda:0: 339.136 seconds
+Epoch: 19
+--------
+cuda
+Train Loss:  0.21913 | Train Accuracy: 1.00
+Test Loss:  0.84446 | Test Accuracy: 0.99
+Train time on cuda:0: 356.989 seconds
+Epoch: 20
+--------
+cuda
+Train Loss:  0.25451 | Train Accuracy: 1.00
+Test Loss:  0.84716 | Test Accuracy: 0.98
+Train time on cuda:0: 374.918 seconds
+Epoch: 21
+--------
+cuda
+Train Loss:  0.22758 | Train Accuracy: 1.00
+Test Loss:  0.93148 | Test Accuracy: 0.98
+Train time on cuda:0: 392.933 seconds
+Epoch: 22
+--------
+cuda
+Train Loss:  0.21667 | Train Accuracy: 1.00
+Test Loss:  0.90586 | Test Accuracy: 0.98
+Train time on cuda:0: 410.905 seconds
+Epoch: 23
+--------
+cuda
+Train Loss:  0.20316 | Train Accuracy: 1.00
+Test Loss:  0.88099 | Test Accuracy: 0.98
+Train time on cuda:0: 428.888 seconds
+Epoch: 24
+--------
+cuda
+Train Loss:  0.24768 | Train Accuracy: 1.00
+Test Loss:  0.82393 | Test Accuracy: 0.98
+Train time on cuda:0: 446.900 seconds
+Epoch: 25
+--------
+cuda
+Train Loss:  0.22136 | Train Accuracy: 1.00
+Test Loss:  0.80355 | Test Accuracy: 0.98
+Train time on cuda:0: 464.876 seconds
+Epoch: 26
+--------
+cuda
+Train Loss:  0.17777 | Train Accuracy: 1.00
+Test Loss:  0.83983 | Test Accuracy: 0.99
+Train time on cuda:0: 482.855 seconds
+Epoch: 27
+--------
+cuda
+Train Loss:  0.20269 | Train Accuracy: 1.00
+Test Loss:  0.83462 | Test Accuracy: 0.98
+Train time on cuda:0: 500.868 seconds
+Epoch: 28
+--------
+cuda
+Train Loss:  0.19620 | Train Accuracy: 1.00
+Test Loss:  0.96662 | Test Accuracy: 0.98
+Train time on cuda:0: 518.864 seconds
+Epoch: 29
+--------
+cuda
+Train Loss:  0.18509 | Train Accuracy: 1.00
+Test Loss:  0.79717 | Test Accuracy: 0.99
+Train time on cuda:0: 536.841 seconds
+Epoch: 30
+--------
+cuda
+Train Loss:  0.19625 | Train Accuracy: 1.00
+Test Loss:  0.88197 | Test Accuracy: 0.99
+Train time on cuda:0: 554.842 seconds
+Epoch: 31
+--------
+cuda
+Train Loss:  0.16809 | Train Accuracy: 1.00
+Test Loss:  0.79772 | Test Accuracy: 0.98
+Train time on cuda:0: 572.834 seconds
+Epoch: 32
+--------
+cuda
+Train Loss:  0.17469 | Train Accuracy: 1.00
+Test Loss:  0.92172 | Test Accuracy: 0.99
+Train time on cuda:0: 590.806 seconds
+Epoch: 33
+--------
+cuda
+Train Loss:  0.20920 | Train Accuracy: 1.00
+Test Loss:  0.80579 | Test Accuracy: 0.99
+Train time on cuda:0: 608.807 seconds
+Epoch: 34
+--------
+cuda
+Train Loss:  0.19748 | Train Accuracy: 1.00
+Test Loss:  0.85215 | Test Accuracy: 0.99
+Train time on cuda:0: 626.858 seconds
+Epoch: 35
+--------
+cuda
+Train Loss:  0.16070 | Train Accuracy: 1.00
+Test Loss:  0.78667 | Test Accuracy: 0.98
+Train time on cuda:0: 644.683 seconds
+Epoch: 36
+--------
+cuda
+Train Loss:  0.17194 | Train Accuracy: 1.00
+Test Loss:  0.78971 | Test Accuracy: 0.98
+Train time on cuda:0: 662.295 seconds
+Epoch: 37
+--------
+cuda
+Train Loss:  0.17019 | Train Accuracy: 1.00
+Test Loss:  0.83706 | Test Accuracy: 0.98
+Train time on cuda:0: 679.997 seconds
+Epoch: 38
+--------
+cuda
+Train Loss:  0.14177 | Train Accuracy: 1.00
+Test Loss:  0.80458 | Test Accuracy: 0.98
+Train time on cuda:0: 697.853 seconds
+Epoch: 39
+--------
+cuda
+Train Loss:  0.15143 | Train Accuracy: 1.00
+Test Loss:  0.81287 | Test Accuracy: 0.99
+Train time on cuda:0: 715.849 seconds
+Epoch: 40
+--------
+cuda
+Train Loss:  0.13177 | Train Accuracy: 1.00
+Test Loss:  0.75941 | Test Accuracy: 0.98
+Train time on cuda:0: 733.774 seconds
+Epoch: 41
+--------
+cuda
+Train Loss:  0.17450 | Train Accuracy: 1.00
+Test Loss:  0.78827 | Test Accuracy: 0.98
+Train time on cuda:0: 751.676 seconds
+Epoch: 42
+--------
+cuda
+Train Loss:  0.16923 | Train Accuracy: 1.00
+Test Loss:  0.87020 | Test Accuracy: 0.98
+Train time on cuda:0: 769.592 seconds
+Epoch: 43
+--------
+cuda
+Train Loss:  0.14470 | Train Accuracy: 1.00
+Test Loss:  0.84626 | Test Accuracy: 0.98
+Train time on cuda:0: 787.476 seconds
+Epoch: 44
+--------
+cuda
+Train Loss:  0.16022 | Train Accuracy: 1.00
+Test Loss:  0.77267 | Test Accuracy: 0.99
+Train time on cuda:0: 805.359 seconds
+Epoch: 45
+--------
+cuda
+Train Loss:  0.14809 | Train Accuracy: 1.00
+Test Loss:  0.77577 | Test Accuracy: 0.98
+Train time on cuda:0: 823.333 seconds
+Epoch: 46
+--------
+cuda
+Train Loss:  0.11946 | Train Accuracy: 1.00
+Test Loss:  0.81124 | Test Accuracy: 0.98
+Train time on cuda:0: 841.306 seconds
+Epoch: 47
+--------
+cuda
+Train Loss:  0.14250 | Train Accuracy: 1.00
+Test Loss:  0.76939 | Test Accuracy: 0.99
+Train time on cuda:0: 859.277 seconds
+Epoch: 48
+--------
+cuda
+Train Loss:  0.13985 | Train Accuracy: 1.00
+Test Loss:  0.85996 | Test Accuracy: 0.98
+Train time on cuda:0: 877.272 seconds
+Epoch: 49
+--------
+cuda
+Train Loss:  0.15229 | Train Accuracy: 1.00
+Test Loss:  0.87730 | Test Accuracy: 0.99
+Train time on cuda:0: 895.227 seconds

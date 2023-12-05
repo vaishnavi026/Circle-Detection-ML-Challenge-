@@ -131,3 +131,31 @@ def print_train_time(start: float,
   total_time = end - start
   print(f"Train time on {device}: {total_time:.3f} seconds")
   return total_time
+
+def plot_accuracy(epochs, test_accuracies):
+    plt.figure(figsize=(10, 6))
+    
+    plt.plot(epochs, test_accuracies, label='Test Accuracy', color='green', marker='o')
+    
+    plt.title('Test Accuracy vs Epochs')
+    plt.xlabel('Epochs')
+    plt.ylabel('Test Accuracy')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
+
+
+def plot_losses(epochs, train_losses, test_losses=None):
+    plt.figure(figsize=(10, 6))
+    
+    plt.plot(epochs, train_losses, label='Train Loss', color='blue', marker='o')
+    
+    if test_losses:
+        plt.plot(epochs, test_losses, label='Test Loss', color='red', marker='o')
+    
+    plt.title('Losses vs Epochs')
+    plt.xlabel('Epochs')
+    plt.ylabel('Loss')
+    plt.legend()
+    plt.grid(True)
+    plt.show()
