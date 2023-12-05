@@ -1,7 +1,7 @@
 import os
 import pickle
 # import utils
-from src.utils import generate_examples
+from utils import generate_examples
 from skimage.draw import circle_perimeter_aa
 import torch
 from torch.utils.data import DataLoader, TensorDataset

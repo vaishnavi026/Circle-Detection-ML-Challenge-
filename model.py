@@ -2,6 +2,10 @@ import torch.nn.functional as F
 from torch import nn
 
 
+import torch.nn.functional as F
+from torch import nn
+
+
 class CNNModel(nn.Module):
     def __init__(self, input_shape=1, hidden_units=64, output_shape=3, img_size=100):
         super().__init__()
@@ -20,19 +24,17 @@ class CNNModel(nn.Module):
             nn.MaxPool2d(kernel_size=2)
         )
         self.out_layer = nn.Sequential(
-            nn.Flatten(),
-            nn.Linear(in_features=hidden_units*4*25*25, out_features=hidden_units*4*25*25*4),
+            nn.Flatten(), # neural networks like their inputs in vector form
+            nn.Linear(in_features=hidden_units*4*25*25, out_features=hidden_units), # in_features = number of features in a data sample (784 pixels)
             nn.ReLU(),
-            nn.Linear(in_features=hidden_units*4*25*25*4, out_features=hidden_units*4*25*25),
-            nn.ReLU(),
-            nn.Linear(in_features=hidden_units*4*25*25*4, out_features=output_shape)
+            nn.Linear(in_features=hidden_units, out_features=output_shape)
         )
 
     def forward(self, x):
         x = self.conv_block1(x)
-        # print(x.shape)
+        # # print(x.shape)
         x = self.conv_block2(x)
-        # print(x.shape)
+        # # print(x.shape)
         x = self.out_layer(x)
         # print(x.shape)
         return x

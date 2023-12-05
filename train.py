@@ -3,10 +3,10 @@ import tqdm
 from tqdm.auto import tqdm
 import torch.nn as nn
 
-from src.model import CNNModel
+from model import CNNModel
 from timeit import default_timer as timer
 
-from src.utils import print_train_time
+from utils import print_train_time
 
 def train_step(model: torch.nn.Module,
                data_loader: torch.utils.data.DataLoader,
@@ -80,45 +80,3 @@ def eval_model(model,
           "model_loss": loss.item(),
           "model_acc": acc}
 
-def train(train_loader, test_loader, calculate_accuracy, epochs = 50, device='cuda'):
-    torch.manual_seed(42)
-    model = CNNModel().to(device)
-    loss_fn = nn.MSELoss()
-    optimizer = torch.optim.Adam(model.parameters(), lr = 0.0001)
-    start_time= timer()
-    train_losses = []
-    test_losses = []
-    test_accs = []
-    epochs_ = []
-
-    for epoch in tqdm(range(epochs)):
-        print(f"Epoch: {epoch}\n--------", flush = True)
-        train_loss, train_acc = train_step(model = model,
-                data_loader=train_loader,
-                loss_fn=loss_fn,
-                optimizer=optimizer,
-                calculate_accuracy=calculate_accuracy,
-                device=device
-                )
-
-        test_loss, test_acc = test_step(model = model,
-                data_loader=test_loader,
-                loss_fn=loss_fn,
-                calculate_accuracy=calculate_accuracy,
-                device=device
-                )
-
-        epochs_.append(epoch)
-        train_losses.append(train_loss.item())
-        test_losses.append(test_loss.item())
-        test_accs.append(test_acc)
-
-
-
-
-
-        # Calculate training time
-        end_time = timer()
-        total_train_time_model = print_train_time(start=start_time,
-                                                    end=end_time,
-                                                    device=str(next(model.parameters()).device))
