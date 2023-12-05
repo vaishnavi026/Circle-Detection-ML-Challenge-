@@ -77,7 +77,7 @@ Image Size: 100x100 pixels
 
 ## Running the Project
 
-To run the complete pipeline, execute `run.py`. 
+To run the complete pipeline, execute `run.py`. (Example: run(noise_level=0.2, img_size=100, num_samples=20000, epochs=50)
 
 ## Results
 
