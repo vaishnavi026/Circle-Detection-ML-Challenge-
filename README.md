@@ -58,4 +58,24 @@ Three Fully Connected layers, with ReLU activation, the final layer outputs 3 fe
 Input Shape: Grayscale images with a single channel (1).\
 Hidden Units: 64 (Adjustable parameter for the number of neurons in the hidden layers).\
 Output Shape: 3 (Representing (x, y, radius) of the circle).\
-Image Size: 100x100 pixels\
+Image Size: 100x100 pixels
+
+
+## Project Structure
+
+- **results/noise_0.1:** This directory has the outcomes of model runs with a noise level set to 0.1, 0.2, and 0.3.
+
+- **model.py:** Defines the architecture of the Convolutional Neural Network (CNN) model designed for circle detection.
+
+- **prepare_data.py:** This module contains functions responsible for generating and preprocessing the dataset. It involves creating synthetic images of circles with varying noise levels.
+
+- **run.py:** This script has the entire pipeline, from data generation to model training. It acts as a helper file.
+
+- **train.py:** Contains functions relevant to the training process of the circle detection model.
+
+- **utils.py:** This module has utility functions used throughout the project.
+
+## Running the Project
+
+To run the complete pipeline, execute `run.py`. 
+
