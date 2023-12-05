@@ -104,7 +104,7 @@ def iou(a: CircleParams, b: CircleParams) -> float:
     union = np.pi * (r1_sq + r2_sq) - intersection
     return intersection / union
 
-def calculate_accuracy(predictions, targets, threshold=0.5):
+def calculate_accuracy(predictions, targets, threshold=0.7):
     """
     Calculate accuracy based on Intersection over Union (IoU) for circle detection.
     :param predictions: List of predicted CircleParams.
