@@ -86,4 +86,6 @@ For noise level 1, I have used the following configurations:
 2. Adam Optimizer with a learning rate of 0.01
 3. 50 Epochs (was getting good performance with a lesser number of epochs
 
+![Train/Test Loss Curve](results/noise_0.1/losses.png)
+
 Obtained MSE Loss in the range of 0.52 for training data, and test accuracy as 97%. (used IoC score and threshold of 0.7 to get accuracy)
