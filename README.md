@@ -51,7 +51,7 @@ MaxPooling Layer: Kernel size (2x2)\
 
 `Output Layer`:\
 Flatten Layer: Flattens the output from the convolutional layers.\
-Three Fully Connected layers, with ReLU activation, the final layer outputs 3 features\
+Two Fully Connected layers, with ReLU activation, the final layer outputs 3 features\
 
 #### Model Parameters
 
