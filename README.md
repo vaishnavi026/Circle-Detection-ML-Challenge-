@@ -91,3 +91,4 @@ For noise level 1, I have used the following configurations:
 ![Test Accuracy Curve](results/noise_0.1/test_accuracy.png)
 
 Obtained MSE Loss in the range of 0.52 for training data, and test accuracy as 97%. (used IoC score and threshold of 0.7 to get accuracy)
+For other levels of noise, I have added the results in results section (added loss , accuracy curves, and output file)
